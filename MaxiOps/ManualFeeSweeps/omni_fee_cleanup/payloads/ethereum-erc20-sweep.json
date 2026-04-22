@@ -12,31 +12,6 @@
   },
   "transactions": [
     {
-      "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "value": "0",
-      "data": null,
-      "contractMethod": {
-        "inputs": [
-          {
-            "internalType": "address",
-            "name": "to",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "value",
-            "type": "uint256"
-          }
-        ],
-        "name": "transfer",
-        "payable": false
-      },
-      "contractInputsValues": {
-        "to": "0x74E283B985EA76c55C8B48d6bD1067a418188424",
-        "value": "21337461046"
-      }
-    },
-    {
       "to": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
       "value": "0",
       "data": null,
