@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/BIP-919-reduce-v3-swap-fee/BIP-919-reduce-v3-swap-fee-base-part1.json`
 MULTISIG: `multisigs/omni (base:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `5e889fb57d1b8ea9a0e466783d2a6bd691774e3a`
+COMMIT: `71b4c296e32ce2941e254eb55c4a9e1fa114ff4d`
 CHAIN(S): `base`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/51e8eb13-fd56-454e-8165-95ee3ea70a51)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/bee7ac85-fb91-44da-a5fd-92b3257a1524)
 
 ```
 +------------------------------------+-----------------------------------------------------------------------------------------------------------+-------+------------------------------------------------------------------------------------------+------------+----------+

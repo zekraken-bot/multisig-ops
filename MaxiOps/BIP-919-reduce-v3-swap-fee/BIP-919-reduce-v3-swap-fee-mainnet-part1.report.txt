@@ -1,8 +1,8 @@
 FILENAME: `MaxiOps/BIP-919-reduce-v3-swap-fee/BIP-919-reduce-v3-swap-fee-mainnet-part1.json`
 MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `5e889fb57d1b8ea9a0e466783d2a6bd691774e3a`
+COMMIT: `71b4c296e32ce2941e254eb55c4a9e1fa114ff4d`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/bd282500-f869-4a82-aaab-da1f284878db)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/491600fb-68ed-4b9e-b362-f59efb843e4b)
 
 ```
 +------------------------------------+-----------------------------------------------------------------------------------------------------------+-------+---------------------------------------------------------------------------------------+------------+----------+
