@@ -1,0 +1,16 @@
+FILENAME: `MaxiOps/ManualFeeSweeps/omni_fee_cleanup/payloads/optimism-erc20-sweep.json`
+MULTISIG: `multisigs/omni (optimism:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `3b05ea9f8e124a0a9c9be9da1e2cdd3fec2c8290`
+CHAIN(S): `optimism`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/61d0ad55-9c8e-4cc8-bb76-9da3f4fcb8a5)
+
+```
++----------+--------------------------------------------------+-------------------------------------------------------------------+--------------------------------------------------+-----+----------+
+| function | token_symbol                                     | recipient                                                         | amount                                           | bip | tx_index |
++----------+--------------------------------------------------+-------------------------------------------------------------------+--------------------------------------------------+-----+----------+
+| transfer | LINK:0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6  | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 4.208195594565074 (RAW: 4208195594565074727)     | N/A |    0     |
+| transfer | WGC:0x67631FF69130ea1a6c4feaA4A0Abf0a1E0148be7   | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 1.0 (RAW: 1000000)                               | N/A |    1     |
+| transfer | LARRY:0xad984fBd3Fb10d0B47D561bE7295685aF726fDb3 | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 1000000000.0 (RAW: 1000000000000000000000000000) | N/A |    2     |
+| transfer | BEARY:0xE42781d2204e6885Cc7b3B2a6CA139822B2333A3 | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 4.0 (RAW: 4000000000000000000)                   | N/A |    3     |
++----------+--------------------------------------------------+-------------------------------------------------------------------+--------------------------------------------------+-----+----------+
+```

@@ -1,0 +1,17 @@
+FILENAME: `MaxiOps/ManualFeeSweeps/omni_fee_cleanup/payloads/plasma-erc20-sweep.json`
+MULTISIG: `multisigs/omni (plasma:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
+COMMIT: `3b05ea9f8e124a0a9c9be9da1e2cdd3fec2c8290`
+CHAIN(S): `plasma`
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/1843d7cd-39d6-4bc4-9dad-fab7d4ba6156)
+
+```
++----------+------------------------------------------------------+-------------------------------------------------------------------+-----------------------------------------------+-----+----------+
+| function | token_symbol                                         | recipient                                                         | amount                                        | bip | tx_index |
++----------+------------------------------------------------------+-------------------------------------------------------------------+-----------------------------------------------+-----+----------+
+| transfer | WETH:0x9895D81bB462A195b4922ED7De0e3ACD007c32CB      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 0.0502337553815299 (RAW: 50233755381529904)   | N/A |    0     |
+| transfer | xUSD:0x6eAf19b2FC24552925dB245F9Ff613157a7dbb4C      | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 23060.831672 (RAW: 23060831672)               | N/A |    1     |
+| transfer | UCF:0x677D154c0bfD7D4A87fB7068E12182DbCd1cd023       | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 0.33915088655418585 (RAW: 339150886554185857) | N/A |    2     |
+| transfer | tcUSDT0:0xa9C251F8304b1B3Fc2b9e8fcae78D94Eff82Ac66   | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 713.782237 (RAW: 713782237)                   | N/A |    3     |
+| transfer | waPlaWETH:0xa047fdFb3420A27a5f926735b475fE5a1E968786 | EOA/keepers/v3_fee_bot:0x74E283B985EA76c55C8B48d6bD1067a418188424 | 0.0332877554857205 (RAW: 33287755485720503)   | N/A |    4     |
++----------+------------------------------------------------------+-------------------------------------------------------------------+-----------------------------------------------+-----+----------+
+```
