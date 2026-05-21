@@ -1,8 +1,8 @@
 FILENAME: `TreasuryOps/BIP-873-USDC-payment-2026-05-12_2205.json`
 MULTISIG: `multisigs/treasury (mainnet:0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89)`
-COMMIT: `f97e0ef98c5ae82f40469ca0ec4ed682af31443e`
+COMMIT: `28f78465140ad8b7bb886f0b1192ca1adef7e80d`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟥 FAILURE (ERC20: transfer amount exceeds balance)`](https://www.tdly.co/shared/simulation/2dc6ed51-e9ad-45df-817b-945c9544e8d4)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/93438e53-8f05-4cdb-9950-370624fe1f48)
 
 ```
 +----------+-------------------------------------------------+----------------------------------------------------------------------+------------------------------+---------+----------+
