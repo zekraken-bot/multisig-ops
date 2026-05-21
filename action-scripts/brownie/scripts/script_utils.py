@@ -35,6 +35,7 @@ NA = "N/A"
 NOT_FOUND = "Not Found"
 POOL_ID_CUSTOM_FALLBACK = "Custom"
 BIPS_PRECISION = 1e16
+SWAP_FEE_PERCENTAGE_PRECISION = Decimal(10) ** 16
 
 _tenderly_cache = {}
 
@@ -111,7 +112,10 @@ def get_changed_files() -> list[dict]:
                 continue
         filename = file_json["filename"]
         if (
-            "BIPs/" in filename or "MaxiOps/" in filename or "TreasuryOps/" in filename
+            "BIPs/" in filename
+            or "MaxiOps/" in filename
+            or "OmniOps/" in filename
+            or "TreasuryOps/" in filename
         ) and filename.endswith(".json"):
             # Check if file exists first
             try:
@@ -815,6 +819,19 @@ def prettify_int_amount(amount: int, decimals=None) -> str:
         return f"raw:{amount}, 18 decimals:{Decimal(amount) / Decimal(1e18)}, 6 decimals: {Decimal(amount) / Decimal(1e6)}"
 
 
+def prettify_swap_fee_percentage(amount: int) -> str:
+    try:
+        raw_amount = int(amount)
+    except:
+        print(f"Can't make {amount} into an int to prettify")
+        return amount
+    percentage = Decimal(raw_amount) / SWAP_FEE_PERCENTAGE_PRECISION
+    percentage_string = format(percentage.normalize(), "f")
+    if "." in percentage_string:
+        percentage_string = percentage_string.rstrip("0").rstrip(".")
+    return f"{raw_amount} ({percentage_string}%)"
+
+
 ## Prettification helpers
 def prettify_int_amounts(amounts: list, decimals=None) -> list[str]:
     pretty_amounts = []
@@ -869,6 +886,8 @@ def prettify_contract_inputs_values(chain: str, contracts_inputs_values: dict) -
                 outputs[key].append(
                     f"{value} ({perm.paths_by_action_id.get(value, 'N/A')})"
                 )
+            elif "swapfeepercentage" in key.lower():
+                outputs[key].append(prettify_swap_fee_percentage(value))
             elif (
                 "value" in key.lower()
                 or "amount" in key.lower()
