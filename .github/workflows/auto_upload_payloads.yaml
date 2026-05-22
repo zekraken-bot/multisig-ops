@@ -57,6 +57,7 @@ jobs:
           ref: v2
           token: ${{ steps.action-token.outputs.token }}
           path: .github/actions/safe-queue-action
+          persist-credentials: false
 
       - name: Upload payloads to Safe
         uses: ./.github/actions/safe-queue-action
