@@ -7,7 +7,7 @@ on:
       - "BIPs/**"
       - "config/**"
       - "MaxiOps/**"
-      - "OmniOps/**"
+      - "OmniAutoOps/**"
       - "TreasuryOps/**"
 jobs:
   run_reports:
