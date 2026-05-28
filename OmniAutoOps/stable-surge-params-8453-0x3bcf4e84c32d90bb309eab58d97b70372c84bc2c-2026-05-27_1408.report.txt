@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/stable-surge-params-8453-0x3bcf4e84c32d90bb309eab58d97b70372c84bc2c-2026-05-27_1408.json`
 MULTISIG: `multisigs/omni (base:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `a999bc7cb9e71e29f7e4d4b31c11704180d56b3d`
+COMMIT: `e12a992068f7e75ca8a10256de81e6d1fd358379`
 CHAIN(S): `base`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/a692cca6-8423-49cf-8e83-6a86211754f0)
+TENDERLY: `🟪 SKIPPED (ValueError({'error': {'id': 'c495d99e-414d-41b2-a851-b7b2a5367ff0', 'slug': 'invalid_transaction_simulation', 'message': 'agent call: upstream request timeout: invalid transaction simulation'}}))`
 
 ```
 +--------------------------+-----------------------------------------------------------------------------------------------+-------+-------------------------------------------------------------------------+------------+----------+
