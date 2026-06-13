@@ -1,8 +1,8 @@
 FILENAME: `OmniAutoOps/add-rewards-1-0x2f534f-2026-06-12_1551.json`
 MULTISIG: `multisigs/omni (mainnet:0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e)`
-COMMIT: `c5940a9e5b83efe79542dbdb6e8ee824b12d1ac5`
+COMMIT: `29f591e5266c73d9392528d5c36eab060e2933c9`
 CHAIN(S): `mainnet`
-TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/3cfade01-3425-4fee-8f3e-2aaddfb0154f)
+TENDERLY: [`🟩 SUCCESS`](https://www.tdly.co/shared/simulation/24bcb6de-be53-4994-98aa-55e60135e28b)
 
 ```
 +---------------+-----------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------------------------+---------------------------------------------------------+-----+----------+
