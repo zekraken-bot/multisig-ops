@@ -37,7 +37,7 @@ jobs:
       COMMIT_SHA: ${{ inputs.checkout_ref }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: ${{ inputs.checkout_ref }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
